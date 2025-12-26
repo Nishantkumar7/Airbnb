@@ -1,0 +1,67 @@
+# Bundler
+.bundle
+/vendor/bundle
+
+# Rails logs & temp
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# PIDs
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Storage / uploads
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+/public/uploads
+/public/system
+
+# Assets
+/public/assets
+/public/packs
+/public/packs-test
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+# Database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
+
+# Environment variables
+.env
+.env*.local
+
+# Secrets
+/config/master.key
+/config/credentials/*.key
+
+# Coverage / testing
+/coverage
+/spec/tmp
+capybara-*.html
+pickle-email-*.html
+.rspec
+
+# Debugging
+.byebug_history
+*.rbc
+
+# Node
+node_modules
+yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# OS / Editor
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+*.swp
